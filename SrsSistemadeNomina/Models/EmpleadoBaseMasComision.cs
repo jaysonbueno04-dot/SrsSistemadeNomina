@@ -1,4 +1,4 @@
-﻿namespace SrsSistemadeNomina
+﻿namespace SrsSistemadeNomina.Models
 {
     public class EmpleadoBaseMasComision : EmpleadoPorComision
     {
@@ -12,7 +12,7 @@
 
         public override decimal CalcularIngresos()
         {
-            decimal salarioConBonificacion = SalarioBase + (SalarioBase * 0.10m);
+            decimal salarioConBonificacion = SalarioBase + SalarioBase * 0.10m;
             return base.CalcularIngresos() + salarioConBonificacion;
         }
     }

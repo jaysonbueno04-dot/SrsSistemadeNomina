@@ -1,4 +1,4 @@
-﻿namespace SrsSistemadeNomina
+﻿namespace SrsSistemadeNomina.Models
 {
     public class EmpleadoPorHoras : Empleado
     {
@@ -17,7 +17,7 @@
             if (HorasTrabajadas <= 40)
                 return SueldoPorHora * HorasTrabajadas;
 
-            return (SueldoPorHora * 40) + (SueldoPorHora * 1.5m * (HorasTrabajadas - 40));
+            return SueldoPorHora * 40 + SueldoPorHora * 1.5m * (HorasTrabajadas - 40);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace SrsSistemadeNomina
+﻿namespace SrsSistemadeNomina.Models
 {
     public class EmpleadoPorComision : Empleado
     {

@@ -1,6 +1,7 @@
 ﻿using System.Text;
+using SrsSistemadeNomina.Models;
 
-namespace SrsSistemadeNomina
+namespace SrsSistemadeNomina.Services
 {
     public class GestionNominaService
     {
